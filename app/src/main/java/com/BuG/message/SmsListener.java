@@ -17,7 +17,7 @@ public class SmsListener extends BroadcastReceiver {
 
     public static final String NOTIFICATION_CHANNEL_ID = "10001";
     public static final String KEY_NOTIFICATION_GROUP = "GRP";
-    int i = 0;
+    int i = 1;
 
     @Override
     public void onReceive(Context context, Intent intent) {
